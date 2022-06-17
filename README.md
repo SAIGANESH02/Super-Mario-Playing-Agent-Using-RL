@@ -1,4 +1,4 @@
-## Project Overview
+## Super Mario Playing Agent Using RL
 
 Nintendo created and distributed Super Mario Bros in the 1980s, and it is a well-known video game. It is a classic game title that has endured the test of time and requires no explanation. Using the Nintendo Entertainment System (NES) python emulator, the gaming environment was extracted from the OpenAI Gym. In this project, we use the PyTorch library to create the Reinforcement Learning method using the Deep Double Q-Network (DDQN) algorithms. We demonstrate how the recently developed Double Q learning (DQN) technique, which combines Q-learning with a deep neural network, may be utilised to create an agent that assists in completing levels in Super Mario Bros. The goal of Double Q-learning is to decrease over estimations by breaking down the target’s maximum operation into action selection and action assessment. The algorithm utilises the target network to estimate the value of the greedy policy based on the online network.
 
