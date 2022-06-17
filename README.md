@@ -29,7 +29,7 @@ In normal Q-learning and DQN, the max operator selects and evaluates actions usi
 
 It's worth noting that the action selection in the argmax is still based on the online weights t. This indicates that, just like in Q learning, we're still predicting the greedy policy's value based on current values as described by t. However, to objectively evaluate the value of this strategy, we employ the second set of weights θ0. By reversing the roles of and θ0, the second set of weights can be updated symmetrically.
 
-### Experimentation Results
+## Experimentation Results
 Training Mario for 10 episodes Episode 10 score = 53, average score = 39.1
 
 ![1](https://user-images.githubusercontent.com/53213766/174395657-eac00bfe-6df0-4e1a-b703-ebcd819546c7.gif)
@@ -42,7 +42,7 @@ Testing Mario and gathering video of his performance over 2000 episodes Episode 
 
 ![3](https://user-images.githubusercontent.com/53213766/174395679-fbe9fdbc-fc31-4d3e-8518-4be91bcbba54.gif)
 
-### Conclusion
+## Conclusion
 In this project, during the due course of our research we have come across multiple topic related research papers which talked about the game theory and most importantly Q learning, and also about the novel method of deep Q learning and DQN - deep Q network. This project was built on the motivation of making an RL agent which could train itself after multiple epochs based on Reinforcement learning and the concept of Double Deep Q learning, which enables this Mario playing RL agent to dodge obstacles and also gather points within the game with a very good coded reward process. Also miscellaneously, we have implemented the usage of OpenAI gym and nvidia system for the successful In completion of this project. In conclusion, this project is an extension of the usage of Deep Q learning algorithm and it’s related theories.
 
 ##### Thank you :)
